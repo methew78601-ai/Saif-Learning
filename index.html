@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Icons (for skills & buttons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/J5d9J8Nqk6cJbYlKU2U6L9gqk5FhVvZ8cfjG7B7N5E6VxN1sC3y+JpHqVQkG5x1W4A5s3U2w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- ====== NAVBAR ====== -->
+    <header class="header">
+        <div class="logo">Saif<span> Siddiqui</span></div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <!-- ====== HERO / HOME ====== -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <div class="hero-avatar">
+                <!-- Avatar image is handled in CSS background -->
+            </div>
+
+            <div class="hero-text">
+                <p class="hero-tagline">I am <span class="typing"></span></p>
+                <h1>Welcome to My Portfolio <span class="wave">👋</span></h1>
+                <p class="hero-desc">
+                    Hi, I'm <span class="highlight">Saif Siddiqui</span> — a multidisciplinary professional working as a
+                    Creative Developer, Designer, and Accountant. I blend technical expertise, visual creativity, and
+                    financial precision to build digital experiences that are clean, intuitive, and strategically
+                    aligned with business goals. With a strong foundation in coding, design principles, and financial
+                    management, I create solutions that are visually appealing, technically sound, and backed by
+                    accurate financial insights.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        View Projects <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn ghost-btn">
+                        Contact Me <i class="fa-regular fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- floating glow -->
+        <div class="hero-glow"></div>
+    </section>
+
+    <!-- ====== ABOUT ====== -->
+    <section id="about" class="section">
+        <div class="section-inner reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image-card">
+                    <!-- Yaha relative path use karo, apne project ke hisaab se -->
+                    <img src="image/saif.jpg" alt="my image" />
+                    <div class="about-image-overlay">
+                        <p>Saif Siddiqui</p>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <p>
+                      I’m a multidisciplinary professional skilled in software development, graphic design, accounting systems, and data analysis. I work with modern technologies to build solutions that are efficient, user-focused, and visually refined.
+                    </p>
+                    <p>
+                     My technical expertise includes C, C++, Java, Python, HTML, CSS, JavaScript, Node.js, MySQL, and MongoDB, supported by strong design experience in Illustrator, Photoshop, Canva, and Figma. I also have hands-on knowledge of Tally Prime, Busy, Marg ERP, and SAP, along with analytical skills using Excel, SQL, Power BI, and Python.
+                    </p>
+                      <p>
+                    I focus on delivering work that combines functionality, clarity, and creative precision, while continuously learning and improving my craft.
+                    </p>
+  
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ====== SKILLS ====== -->
+<section id="skills" class="section">
+    <div class="section-inner reveal">
+        <h2 class="section-title">Skills</h2>
+
+        <!-- PROGRAMMING LANGUAGES -->
+        <div class="skills-category">
+            <h3><span class="dot blue"></span> Programming Languages</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-c"></i>
+                    <span>C</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-cuttlefish"></i>
+                    <span>C++</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-mdb"></i>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRAPHIC DESIGN -->
+        <div class="skills-category">
+            <h3><span class="dot pink"></span> Graphic Design</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <span>Illustrator</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-image"></i>
+                    <span>Photoshop</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    <span>Canva</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACCOUNTING -->
+        <div class="skills-category">
+            <h3><span class="dot green"></span> Accounting Software</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <span>Tally Prime</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-receipt"></i>
+                    <span>Busy</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-calculator"></i>
+                    <span>Marg ERP</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <span>SAP</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DATA ANALYSIS -->
+        <div class="skills-category">
+            <h3><span class="dot yellow"></span> Data Analysis</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-table"></i>
+                    <span>Excel</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Power BI</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- ====== PROJECTS ====== -->
+    <section id="projects" class="section">
+        <div class="section-inner reveal">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🧑‍💻</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A clean, responsive portfolio showcasing my skills, projects, and contact form — built with
+                        HTML, CSS, and JS.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🗳️</div>
+                    <h3>Vote Counter App</h3>
+                    <p>
+                        Simple JavaScript app to count and display which party or person received the highest votes.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🪪</div>
+                    <h3>3D Profile Card</h3>
+                    <p>
+                        An interactive rotating card displaying your profile details and social links — using CSS 3D
+                        transforms.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">💎</div>
+                    <h3>Crystal Nav Website</h3>
+                    <p>
+                        Stylish navigation bar with a crystal-glass hover effect and smooth UI design using HTML &amp;
+                        CSS.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">✅</div>
+                    <h3>To-Do List App</h3>
+                    <p>
+                        A simple todo-list that allows adding, deleting, and saving tasks with local storage support.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🍛</div>
+                    <h3>Curry Maker Website</h3>
+                    <p>
+                        A fun drag-and-drop game where you mix ingredients in a bowl to make curry — built with
+                        JavaScript.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🎁</div>
+                    <h3>MLBB Giveaway Page</h3>
+                    <p>
+                        Interactive giveaway website for gamers — includes a name entry and live spin feature.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">⏰</div>
+                    <h3>Digital Clock</h3>
+                    <p>
+                        A live digital clock that updates every second — styled with glowing UI, gradient effects, and
+                        animations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact" class="section">
+    <div class="section-inner reveal">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="contact-text">
+            Interested in working together or just want to say hi? Let's connect!
+        </p>
+
+        <div class="contact-buttons">
+
+            <a href="tel:8171342516" id="callBtn" class="btn contact-btn">
+    <i class="fa-solid fa-phone"></i> Call Me
+</a>
+
+
+            <a href="mailto:saifsiddiqui78601@gmail.com" class="btn contact-btn">
+                <i class="fa-regular fa-envelope"></i> Email
+            </a>
+
+            <a href="https://instagram.com" target="_blank" class="btn contact-btn">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+
+            <a href="https://github.com" target="_blank" class="btn contact-btn">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+
+            <a href="#" class="btn contact-btn">
+                <i class="fa-brands fa-threads"></i> Threads
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" class="btn contact-btn">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+
+            <a href="https://wa.me/8171342516" target="_blank" class="btn contact-btn">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+
+            <a href="https://facebook.com" target="_blank" class="btn contact-btn">
+                <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer">
+        <p>© 2025 Saif Siddiqui. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
